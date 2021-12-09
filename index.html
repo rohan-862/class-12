@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table-1</title> 
+    <script type="text/javascript">
+      function display()
+      {
+        var i,a;
+        a=form1.t1.value
+        for(i=1;i<=10;i++)
+        {
+          document.write(a*i+"<br/>");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form name="form1">
+      Enter number to display table:Table-1
+      <input type="text" name="t1">
+      <input type="button" value="Display table" onclick="display()">
+  </body>
+</html>
