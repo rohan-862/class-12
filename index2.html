@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      function sampleFunction()
+      {
+        window.setTimeout(next(),4000);
+      }
+      function next()
+      {
+        alert("10 seconds have passed");
+      }
+    </script>
+  </head>
+  <body style="background-color:cyan">
+    <h1 align="center">
+      Click button and wait for message
+    </h1>
+    <input type="button" value="Timeout function" onclick="sampleFunction()">
+  </body>
+</html>
